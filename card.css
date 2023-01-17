@@ -1,0 +1,38 @@
+.container {
+  border: 1px solid lightgray;
+  width: 500px;
+  height: auto;
+}
+
+.img{
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+}
+
+h2 {
+  font-size: 40px;
+}
+.card-header {
+  padding-left: 20px;
+}
+
+section,
+.card-header {
+  border-bottom: 1px solid lightgrey;
+}
+p,
+span {
+  font-size: 30px;
+}
+section,
+footer {
+  padding: 20px;
+}
+a {
+  color: blue;
+  margin-right: 50px;
+}
