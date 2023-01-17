@@ -1,0 +1,20 @@
+:root {
+  background-color: azure;
+}
+
+body {
+  background-color: #011212;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ball {
+  width: 100px;
+  height: 100px;
+  background-color: #ff8800;
+  border-radius: 40px;
+  border: 2px solid white;
+  box-shadow: white 10px 10px;
+}
