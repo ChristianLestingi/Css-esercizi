@@ -1,9 +1,15 @@
 :root {
-  background-color: azure;
+  --bgcolor:#011212;
+  --br:40px;
+  --wball:100px;
+  --hball:100px;
+
+
+
 }
 
 body {
-  background-color: #011212;
+  background-color:var(--bgcolor);
   height: 500px;
   display: flex;
   justify-content: center;
@@ -11,10 +17,10 @@ body {
 }
 
 .ball {
-  width: 100px;
-  height: 100px;
+  width: var(--wball);
+  height: var(--hball);
   background-color: #ff8800;
-  border-radius: 40px;
+  border-radius: var(--br);
   border: 2px solid white;
   box-shadow: white 10px 10px;
 }
