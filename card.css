@@ -1,16 +1,19 @@
-.container {
+.container-card {
   border: 1px solid lightgray;
   width: 500px;
   height: auto;
 }
 
-.img{
+.img {
   background-color: grey;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 300px;
   width: 100%;
+}
+h1 {
+  color: white;
 }
 
 h2 {
