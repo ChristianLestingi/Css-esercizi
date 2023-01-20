@@ -1,0 +1,43 @@
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: brown;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.logo {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: #2b2b2b;
+}
+a:hover{
+    color: #2b2bb2;
+    transition: 0.3s;
+}
+.avatar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.avatar img {
+  width: 100%;
+}
