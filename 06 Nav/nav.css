@@ -58,6 +58,9 @@ span {
   border: 1px solid white;
   border-radius: 5px;
   font-size: 20px;
+  display: flex;
+flex-shrink: 2;
+
 }
 button {
   color: green;
@@ -68,8 +71,8 @@ button {
   font-size: 20px;
 }
 button:hover {
-  color: green;
-  background-color: white;
+  color: white;
+  background-color: green;
 }
 #hamburger-menu img {
   width: 60px;
