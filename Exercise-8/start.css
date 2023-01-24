@@ -13,8 +13,7 @@ body {
 }
 #orange {
   order: 4;
-  flex-basis: 3
-  0ch;
+  flex-basis: 30ch;
 }
 #blue{
     order: 5;
