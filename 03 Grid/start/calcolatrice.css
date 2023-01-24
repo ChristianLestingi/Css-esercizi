@@ -3,6 +3,9 @@
   width: 400px;
   height: 400px;
   grid-template-columns: repeat(4, 1fr);
+
+
+
   /* ho dovuto applicare il border-radius a ogni singolo elemento ai lati,perchè
   sul contenitore non mi funziona,come le ho scritto in chat,vorrei avere chiarimenti su questa cosa,grazie! */
 }
