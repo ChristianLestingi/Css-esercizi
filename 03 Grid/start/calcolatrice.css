@@ -3,27 +3,32 @@
   width: 400px;
   height: 400px;
   grid-template-columns: repeat(4, 1fr);
-
-
-
-  /* ho dovuto applicare il border-radius a ogni singolo elemento ai lati,perchè
-  sul contenitore non mi funziona,come le ho scritto in chat,vorrei avere chiarimenti su questa cosa,grazie! */
+  overflow: hidden;
+  border-radius: 20px;
+  border: 1px solid rgba(66, 66, 85, 0.1);
 }
-
 .items {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 25px;
   font-weight: 600;
-  border: 1px solid rgba(61, 54, 105, 0.498);
-
   background-color: rgb(255, 255, 255);
 }
 .operator {
   background-color: rgba(231, 238, 249, 0.846);
+  border-top: 1px solid rgba(61, 54, 105, 0.498);
 }
-span img{
+.forborder {
+  border-right: 1px solid rgba(61, 54, 105, 0.498);
+}
+.number,
+.tools {
+  border-right: 1px solid rgba(61, 54, 105, 0.498);
+  border-top: 1px solid rgba(61, 54, 105, 0.498);
+}
+
+span img {
   width: 15px;
 }
 #result {
@@ -34,8 +39,6 @@ span img{
   background-color: rgba(66, 66, 85, 0.943);
   color: white;
   font-size: 30px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
 }
 #result span {
   padding-right: 20px;
@@ -45,8 +48,4 @@ span img{
   grid-column: 4/5;
   grid-row: 7/3;
   background-color: rgba(244, 55, 55, 0.623);
-  border-bottom-right-radius: 20px;
-}
-#border-left {
-  border-bottom-left-radius: 20px;
 }
